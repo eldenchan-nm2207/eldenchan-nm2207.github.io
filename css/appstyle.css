@@ -1,0 +1,184 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+marquee{
+font-size: 100px;
+padding: 20px;
+color: red;
+text-shadow: 3px 3px black;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    height: 120%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/mj1stphoto.jpg"); }
+  .img2 { background-image: url("https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/mj2ndphoto.jpeg"); }
+  .img3 { background-image: url("https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/mjuncphoto.jpeg"); }
+  .img4 { background-image: url("https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/mj4thphoto.jpg"); }
+  .img5 { background-image: url("https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/mj5thphoto.jpg"); }
+
+  * {box-sizing: border-box}
+
+/* Text for introduction */
+.introduction {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 120%;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.introduction:hover .overlay {
+  opacity: 1;
+}
+
+/* Text for biography */
+.biography {
+    position: relative;
+  }
+  
+  .text-block {
+    text-align: justify;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Text for awards in UNC */
+.college {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 440px;
+    left: 310px;
+  }
+
+  ul.awards {
+    list-style-type: circle;
+    font-size: 14px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Table for UNC Stats*/
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 20px;
+  }
+
+        #canvas-college {
+            position: relative;
+            height: 80%;
+            width: 80%;
+        }
+    
+  tr:hover {background-color: #7BAFD4;}
+
+  /*For UNC gif*/ 
+  .uncgif {
+        text-align:center;
+        display:block;
+       }
+    
+    /* Text for three peats*/
+       .threepeat {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 35px;
+      }
+      
+      .top-right {
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        left: 650px;
+      }
+
+      /*For six rings*/ 
+    .sixrings {
+    text-align:center;
+    display:block;
+   }
+  
+  /* Pictures of Chicago Sox and Washington Wizards */
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Position text in the middle of the page/image */
+  /*.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    /*background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    /*color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
