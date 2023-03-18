@@ -1,5 +1,22 @@
+//Source of data: Michael Jordan's UNC college statistics https://www.ncaa.com/news/basketball-men/article/2022-03-07/michael-jordan-college-stats-best-games-quotes-moments
+//Source of data: Michael Jordan's career points https://www.landofbasketball.com/nba_players_stats/michael_jordan_tot.htm
 
-    const labelYear = ["1984-85","1985-86","1986-87","1987-88","1988-89","1989-90","1990-91","1991-92","1992-93"]
+/* menu bar*/
+function openNav(x) {
+    x.classList.toggle("change");
+  }
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+const labelYear = ["1984-85","1985-86","1986-87","1987-88","1988-89","1989-90","1990-91","1991-92","1992-93"]
     const labelPoints = [2313,408,3041,2868,2633,2753,2580,2404,2541]
     const labelGamesplayed = [82,18,82,82,81,82,82,80,78]
     const labelPointPerGame = [28.2,22.7,37.1,35.0,32.5,33.6,31.5,30.1,32.6]
@@ -54,8 +71,8 @@
                         label: "number of games played" , // this property is a semantic aming of your y-axis.
                         data: labelGamesplayed, // this property contains an array of values that corresponds to your x-axis labels.
                         borderWidth: 2, // the border width of your bars
-                        backgroundColor: "hsla(0, 100%, 50%, 1)", // the background color of your bars
-                        borderColor: "hsla(0,100%,0%,1)" // the border color of your bars
+                        backgroundColor: ["hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "#ffdf00", "#ffdf00", "#ffdf00"], // the background color of your bars
+                        borderColor: ["hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "#ffdf00", "#ffdf00", "#ffdf00"] // the border color of your bars
                     }
                 ]
             }
@@ -66,7 +83,7 @@
                         options: { 
                             maintainAspectRatio: false,
                             legend: {
-                                display: false
+                                display: false,
                             },
                             title: {
                                 display: true,
@@ -82,11 +99,11 @@
                         labels: labelYear ,
                         datasets: [
                             {
-                                label: "number of games played" , // this property is a semantic aming of your y-axis.
+                                label: "number of points per game" , // this property is a semantic aming of your y-axis.
                                 data: labelPointPerGame, // this property contains an array of values that corresponds to your x-axis labels.
                                 borderWidth: 2, // the border width of your bars
-                                backgroundColor: "hsla(0, 100%, 50%, 1)", // the background color of your bars
-                                borderColor: "hsla(0,100%,0%,1)" // the border color of your bars
+                                backgroundColor: ["hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "#ffdf00", "#ffdf00", "#ffdf00"], // the background color of your bars
+                                borderColor: ["hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "hsla(0,100%,50%,1)", "#ffdf00", "#ffdf00", "#ffdf00"] // the border color of your bars
                             }
                         ]
                     }
