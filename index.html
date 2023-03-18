@@ -9,6 +9,26 @@
     <script defer type="text/javascript" src="appscripts/main.js">
         </script>
 
+<div class="menubar" style= "position:relative;left:20px;top:20px;" onclick="openNav(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#biography">Who is Michael Jordan?</a>
+  <a href="#college">UNC basketball career</a>
+  <a href="#">Chicago Bulls 1984-1993</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Use any element to open the sidenav 
+<span onclick="menubar()">menubar</span>-->
+
+<h1>Storyboard draft</h1>
+<img src="https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/storyboard.png" alt="Storyboard" style="width:100%" height="700">
+
         <marquee behavior="scrolling" scrollamount="30">The Life of Michael Jordan</marquee>
         
 </head>
@@ -19,8 +39,8 @@
           <div class="overlay">Do you know who he is? His Airness and Greatest-of-All-Time, Michael Jordan</div>
         </div>
 
-        <div class="biography">
-          <img src="https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/mj2ndphoto.jpeg" alt="Norway" style="width:100%;">
+        <div id="biography" class="biography">
+          <img src="https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/mj2ndphoto.jpeg" alt="Norway" style="width:100%;" height="800">
           <div class="text-block"> 
             <h2>Biography</h2>
             <p>Michael Jordan was born on February 17, 1963, in Brooklyn, New York, but grew up in Wilmington, North Carolina. He was the fourth of five children and was raised in a close-knit family. Jordan showed an early interest in sports and was known for his competitiveness even as a child. He played basketball, baseball, and football in high school, and excelled in all three sports. Jordan attended the University of North Carolina at Chapel Hill on a basketball scholarship and helped lead the Tar Heels to the 1982 NCAA championship. His success in college set the stage for a legendary professional career in the NBA.
@@ -28,7 +48,7 @@
           </div>
         </div>
 
-        <div class="college">
+        <div id="college" class="college">
           <img src="https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/michaeljordanunc2.jpeg" alt="Michael Jordan" style="width:55%;">
           <div class="bottom-left">
             <ul class="awards">
@@ -91,7 +111,7 @@
             <td style="text-align:center">19.6</td>
           </tr>
           <tr>
-            <td style="text-align:center">Career</td>
+            <td style="text-align:center">College Career</td>
             <td style="text-align:center">101</td> 
             <td style="text-align:center">7.1</td>
             <td style="text-align:center">13.2</td>
@@ -108,19 +128,18 @@
         </div>
 
         <h2 style="text-align:center">INCLUDE BAR GRAPHS OR LINE CHARTS OF STATS IN CHICAGO BULLS</h2>
-
+        
         <div id="canvas-container" class="center">
-          <canvas id="career-points-line-chart" width="400" height="400"></canvas> 
-        </div>
+          <canvas id="points-per-game-bar-chart" width="400" height="400"></canvas> 
+          </div>
 
         <div id="canvas-container" class="center">
         <canvas id="games-played-bar-chart" width="400" height="400"></canvas> 
         </div>
 
         <div id="canvas-container" class="center">
-        <canvas id="points-per-game-bar-chart" width="400" height="400"></canvas> 
+          <canvas id="career-points-line-chart" width="400" height="400"></canvas> 
         </div>
-  
 
         <div class="threepeat">
           <img src="https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/mj4thphoto.jpg" alt="Michael Jordan" style="width:100%;">
@@ -149,7 +168,7 @@
           </div>
         </div>
 
-          <h2 style="text-align:center">INCLUDE WRITE UP OF CHICAGO SOX AND WASHINGTON WIZARDS</h2>
+          <h2 style="text-align:center">INCLUDE WRITE UP OF BIRMINGHAM BARONS AND WASHINGTON WIZARDS</h2>
 
         <div class="airjordans">
           <img src="https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/airjordans.jpeg" alt="Michael Jordan" style="width:80%;">
