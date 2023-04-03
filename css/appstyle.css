@@ -224,11 +224,57 @@ text-shadow: 3px 3px black;
         left: 650px;
       }
 
+    .drafted {
+      color: red;
+      font-size: 22px;
+      padding:5px;
+      text-align: center;
+      }
+      .draftedText{
+        margin-left: 30px;
+        margin-right: 30px;
+        }
+   
+        /* Pictures of AJ1 and AJ12 */
+      .columns {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+
+      .rows::after {
+        content: "";
+        clear: both;
+         display: table;
+      }
+
+      .retirement {
+        color: red;
+        font-size: 22px;
+        padding:5px;
+        text-align: center;
+        }
+        .retirementText{
+        margin-left: 30px;
+        margin-right: 30px;
+        }
+
       /*For six rings*/ 
-    .sixrings {
+    .sixringspic {
     text-align:center;
     display:block;
    }
+
+   .sixrings {
+    color: red;
+    font-size: 22px;
+    padding:5px;
+    text-align: center;
+    }
+    .sixringsText{
+      margin-left: 30px;
+      margin-right: 30px;
+      }
   
   /* Pictures of Chicago Sox and Washington Wizards */
 .column {
@@ -241,6 +287,35 @@ text-shadow: 3px 3px black;
     content: "";
     clear: both;
     display: table;
+  }
+
+  .baronsText{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+
+  .wizardsText{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+
+  #airjordans h1 {
+text-align: center;
+  }
+
+  .airjordans {
+    text-align: center;
+  }
+
+  .airjordansText {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   /* Position text in the middle of the page/image */

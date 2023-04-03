@@ -1,6 +1,6 @@
 //Source of data: Michael Jordan's UNC college statistics https://www.ncaa.com/news/basketball-men/article/2022-03-07/michael-jordan-college-stats-best-games-quotes-moments
 //Source of data: Michael Jordan's career points https://www.landofbasketball.com/nba_players_stats/michael_jordan_tot.htm
-
+  
 /* menu bar*/
 function openNav(x) {
     x.classList.toggle("change");
