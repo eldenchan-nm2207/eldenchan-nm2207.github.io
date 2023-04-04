@@ -1,12 +1,3 @@
-$( document ).ready(function() {
-  
-    $('.click').click(function() {
-      console.log('hi');
-      $('.play-btn').toggleClass("hide");
-      $('.image-png').toggleClass("hide");
-    });
-  });
-
 const stats = [
     { year: '1993-1994', points: 32.3, gamesPlayed: 17, steals: 1.8, rebounds: 6.7, assists: 5.5, threes: 0.8 },
     { year: '1994-1995', points: 26.9, gamesPlayed: 17, steals: 1.8, rebounds: 6.9, assists: 5.3, threes: 1.4 },

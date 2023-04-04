@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/appstyletrial.css">
+    <script defer type="text/javascript" src="appscripts/trial.js">
+        </script>
+</head>
+<body>
+   
+    <div class="container">
+        <h1 id="stats">Michael Jordan's Chicago Bulls Career Statistics (1993-1998)</h1>
+        <ul class="tab-menu">
+            <li class="tab-item active" onclick="changeTab(0)">1993-1994</li>
+            <li class="tab-item" onclick="changeTab(1)">1994-1995</li>
+            <li class="tab-item" onclick="changeTab(2)">1995-1996</li>
+            <li class="tab-item" onclick="changeTab(3)">1996-1997</li>
+            <li class="tab-item" onclick="changeTab(4)">1997-1998</li>
+        </ul>
+        <div class="tab-content" id="content"></div>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="barChart"></canvas>
+      </div>
+
+  </body>
+  </html>
