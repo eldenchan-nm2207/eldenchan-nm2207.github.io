@@ -110,7 +110,7 @@ const labelYear = ["1984-85","1985-86","1986-87","1987-88","1988-89","1989-90","
                     {
                         label: 'NBA champion',
                         data: [0,0,0,0,0,0,2580,2404,2541],
-                        backgroundColor: 'blue',
+                        backgroundColor: 'gold',
                         borderColor: 'gold',
                         borderWidth: 1,
                         fill: false,
