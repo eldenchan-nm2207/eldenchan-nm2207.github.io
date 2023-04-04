@@ -1,56 +1,12 @@
-.click {
-    height: 300px;
-    width: 300px;
-    position: relative;
-  }
-  
-  .play-btn {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -25px;
-    margin-top: -25px;
-    height: 50px;
-    width: 50px;
-    background-repeat: no-repeat;
-    background-size: 90%;
-    z-index: 3;
-    opacity: 1;
-    
-    -webkit-transition: opacity .2s ease-in-out; /* Safari */
-    transition: opacity .2s ease-in-out;
-  }
-  
-  .image {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    opacity: 1;
-    
-    -webkit-transition: opacity .5s ease-in-out; /* Safari */
-    transition: opacity .5s ease-in-out;
-  }
-  
-  .hide {
-    opacity: 0;
-  }
-  
-  /*.image-png {
-    background-image: url('https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/jumpshotstatic.jpg');
-    z-index: 2;
-  }*/
-  
-  .image-gif {
-    background-image: url('https://nm2207.org/2223S2/e0725566/web/FinalProject/resources/jumpshot.gif');
-    z-index: 1;
-  }
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+#stats {
+    text-align: center;
+    color: red;
 }
 
 .container {
@@ -72,6 +28,8 @@ body {
     cursor: pointer;
     color: white;
     background-color: #444;
+    width: 20%;
+    text-align: center;
 }
 
 .tab-item:hover {
@@ -88,22 +46,7 @@ body {
     background-color: #f1f1f1;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f1f1f1;
-}
-
-.container {
-    text-align: center;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
+.chart-container {
+    width: 80%;
+    height: 80%;
+  }
