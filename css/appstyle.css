@@ -364,9 +364,13 @@ text-shadow: 3px 3px black;
         background-color: #0056b3;
     }
 
-    .youtubevideo{
+    #topten {
       text-align: center;
       color: red;
+    }
+
+    #youtubevideo {
+      text-align: center;
     }
 
   /* Pictures of Chicago Sox and Washington Wizards */
